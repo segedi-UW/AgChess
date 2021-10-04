@@ -1,0 +1,38 @@
+#title{
+	-fx-font-size: 80;
+	-fx-text-alignment: center;
+	-fx-alignment: center;
+	-fx-label-padding: 100;
+	-fx-text-fill: white;
+}
+.check-box {
+	-fx-text-fill: white;
+	-fx-underline: true;
+	-fx-alignment: bottom-right;
+}
+#cell{
+	-fx-border: 5px;
+	-fx-background-radius: 12px;
+	-fx-background-color: azure;
+	-fx-opacity: 0.8;
+}
+.MOVE{
+	-fx-background-color: rgb(75, 100, 200, 0.5);
+}
+
+.SELECT{
+	-fx-background-color: rgb(252, 215, 3, 0.5);
+}
+
+.ATTACK{
+	-fx-background-color: rgb(200, 100, 75, 0.7);
+}
+
+.CHECK{
+	-fx-background-color: rgb(150, 5, 5, 0.7);
+	-fx-background-radius: 25px;
+}
+.WIN {
+	-fx-background-color: rgb(255, 170, 0, 0.7);
+	-fx-background-radius: 25px;
+ }
