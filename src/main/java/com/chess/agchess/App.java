@@ -65,7 +65,7 @@ public class App extends Application {
 		multi.setMinSize(buttonWidth, buttonHeight);
 		multi.setOnAction(event -> controller.setScene(ScreenController.Screen.GAME_MULTI));
 		
-		VBox buttons = new VBox(single, multi);
+		VBox buttons = new VBox(single/*, multi*/);// TODO
 		buttons.setSpacing(30);
 		buttons.setAlignment(Pos.BOTTOM_CENTER);
 		
